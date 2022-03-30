@@ -1,9 +1,9 @@
 <h1 align="center">
-  <b> ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ </b>
+  <b> KAAL SPAM </b>
 </h1>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/6d539209ed8fecb85b8a5.jpg" alt="ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ">
+  <img src="https://te.legra.ph/file/2963cd4cdc8018b2e9bc1.jpg" alt="ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ">
 </p>
 
 ## ⚡ ᗪᗴᑭᒪOY Oᑎ ᕼᗴᖇOKU
