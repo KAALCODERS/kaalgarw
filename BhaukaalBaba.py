@@ -783,7 +783,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("🔥🇷 🇺 🇰  🇦 🇾 🇦  🇨 🇭 🇴 🇩  🇰 🇪  💥💥")
+                await event.edit("🔥🆁🆄🅺 🅹🅾🅸🅽 🅺🆁🆃🅰💥💥")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -827,7 +827,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("🇭 ᗩᕼᗩᕼᗩᕼᗩ 🇵 ᖇIᐯᗩTᗴ 🇲 ᗴ 🇨 ᕼᑌᗪᗴᘜI 🇦 ᒍᒍ ❤️‍🔥")
+                await event.edit("🅷🅰🅷🅰 🅿🆁🅸🆅🅰🆃🅴 🅼🅴 🅲🅷🅾🅳🅴🅽🅶🅴 🅰🅰🅰🅹 ❤️‍🔥")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -871,7 +871,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("🇧 ᗩᗩᑭ 🇸 ᗴ 🇨 ᕼᑌᗪ 🇬 Yᗴ 🇨 ᕼᑌTIYᗴ🤤🤤")
+                await event.edit("🅿🅰🅿🅰 🅺🅰🅰🅻 🆂🅴 🅲🅷🆄🅳 🅶🅰🆈🅴 🅲🅷🆄🆃🅸🆈🅴🤤🤤")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1217,13 +1217,13 @@ async def _(e):
             a = await e.client.get_entity(message)
             g = a.id
             if int(g) in MKX:
-                await e.client.send_message("I can't raid on BhaukaalBaba's owner")
+                await e.client.send_message("🅸 🅲🅰🅽🆃 🆁🅰🅸🅳 🅾🅽 🅺🅰🅰🅻🆂🅿🅰🅼 🅾🆆🅽🅴🆁")
             else: 
                 que[g] = []
                 qeue = que.get(g)
                 appendable = [g]
                 qeue.append(appendable)
-                text = "ᗩᗷᗷ ᗷᗩᗩᑭ ᒍᏆᏆ ᑕᕼᝪᗞᗴᏀᗩ ᎢᑌᏃᗴ ᗩᗩᒍᗩ ᗷᗴᎢᗩ ᗩᗷᗷ 🔥🥵"
+                text = "🅰🅱🅱 🆃🅴🆁🅰 🅱🅰🅰🅿 🆃🆄🅶🅴 🅲🅷🅾🅳🅴🅶🅰 🅰🅰🅹🅰 🅱🅴🆃🅴 🔥🥵"
                 await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1236,7 +1236,7 @@ async def _(e):
                 qeue = que.get(g)
                 appendable = [g]
                 qeue.append(appendable)
-                text = "ᗩᗷᗷ ᗷᗩᗩᑭ ᒍᏆᏆ ᑕᕼᝪᗞᗴᏀᗩ ᎢᑌᏃᗴ ᗩᗩᒍᗩ ᗷᗴᎢᗩ ᗩᗷᗷ 🔥🥵"
+                text = "🅰🅱🅱 🆃🅴🆁🅰 🅱🅰🅰🅿 🆃🆄🅶🅴 🅲🅷🅾🅳🅴🅶🅰 🅰🅰🅹🅰 🅱🅴🆃🅴 🔥🥵"
                 await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1285,7 +1285,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "ᒍᗩᗩ ᗷᔑᗞᏦ ᑕᕼᝪᖇ ᗞᏆᗩ 😂 😂💥"
+            text = "🅹🅰🅰 🅱🆂🅳🅺 🅲🅷🅷🅾🆁 🅳🅸🆈🅰 😂 😂💥"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1296,7 +1296,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "ᒍᗩᗩ ᗷᔑᗞᏦ ᑕᕼᝪᖇ ᗞᏆᗩ 😂 😂💥"
+            text = "🅹🅰🅰 🅱🆂🅳🅺 🅲🅷🅷🅾🆁 🅳🅸🆈🅰 😂 😂💥"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1335,7 +1335,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🤤 🇧 🇭 🇦 🇺 🇰 🇦 🇦 🇱 🤤\n\n🤩=⚡️🇧 🇦 🇧 🇦 =͟͟⚡️🤩 sᴘᴀᴍ ϟ `{ms}` ᗰՏ\n💥💥Տᑭᗴᗴᗪ ᑭᗩKKᗩᗪ ᗷᗩᗩᑭ KI ᑕᕼOᗪᗪᗴ💥💥")
+        await event.edit(f"🤤 🅺🅰🅰🅻 🤤\n\n🤩=⚡️🆂🅿🅰🅼 =͟͟⚡️🤩 sᴘᴀᴍ ϟ `{ms}` ᗰՏ\n💥💥Տᑭᗴᗴᗪ ᑭᗩKKᗩᗪ ᗷᗩᗩᑭ KI ᑕᕼOᗪᗪᗴ💥💥")
 
      
         
@@ -1445,7 +1445,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ⚔️ ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ ⚔️\n\nᑌTIᒪ ᑕOᗰᗰᗩᑎᗪՏ:\n.ping\n.restart\n\nᑌՏᗴᖇᗷOT ᑕOᗰᗰᗩᑎᗪՏ:\n.bio\n.join\n.pjoin\n.leave\n\nՏᑭᗩᗰ ᑕOᗰᗰᗩᑎᗪՏ:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = " ⚔️ 🅺🅰🅰🅻 🆂🅿🅰🅼 🅲🅾🅼🅼🅰🅽🅳🆂 ⚔️\n\nᑌTIᒪ ᑕOᗰᗰᗩᑎᗪՏ:\n.ping\n.restart\n\nᑌՏᗴᖇᗷOT ᑕOᗰᗰᗩᑎᗪՏ:\n.bio\n.join\n.pjoin\n.leave\n\nՏᑭᗩᗰ ᑕOᗰᗰᗩᑎᗪՏ:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -1453,10 +1453,10 @@ async def help(e):
     
         
 text = """
-CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ DEPLOYED SUCCESSFULLY """
+CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL 🅺🅰🅰🅻 🆂🅿🅰🅼 DEPLOYED SUCCESSFULLY """
 
 print(text)
-print("YOᑌᖇ ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ ᗷOT ᗪᗴᑭᒪOY !!")
+print("YOᑌᖇ 🅺🅰🅰🅻 🆂🅿🅰🅼 ᗷOT ᗪᗴᑭᒪOY !!")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
